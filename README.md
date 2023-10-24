@@ -3,7 +3,6 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-- [Project Structure](#project-structure)
 - [Setup](#setup)
 - [Usage](#usage)
 - [Documentation](#documentation)
