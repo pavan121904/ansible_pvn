@@ -1,0 +1,16 @@
+---
+ - name: Update package cache
+   apt:
+    update_cache: yes
+
+ - name: Upgrade packages (security patches)
+   apt:
+    name: '*'
+    state: latest
+    update_cache: yes
+
+ - name: Reboot if needed after package upgrades
+   command: shutdown -r now
+   async: 1
+   poll: 0
+
