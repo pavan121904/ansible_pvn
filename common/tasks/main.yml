@@ -3,7 +3,7 @@
    apt:
     update_cache: yes
 
- - name: Upgrade packages (security patches)
+ - name: Upgrade packages (security patches)# this was allows to patch and upgrade the ubuntu servber 
    apt:
     name: '*'
     state: latest
